@@ -1,6 +1,6 @@
 {
   "name": "file-path-resolver",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Resolves path to a file in a Node Js when we require a file.",
   "main": "index.js",
   "scripts": {

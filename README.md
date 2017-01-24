@@ -21,8 +21,8 @@ But you can require these files as using `file-path-resolver`.
 
 ```js
 var useFilePath = require('file-path-resolver').useFilePath;
-var helper = require(userFilePath('helper'));
-var dbConfig = require(userFilePath('config')); 
+var helper = require(useFilePath('helper'));
+var dbConfig = require(useFilePath('config'));
 ```
 `file-path-resolver` appends the `.js` file extension if not specified while requiring a file.
 
@@ -51,13 +51,13 @@ filePathResolver('root-folder-name');  // Takes name of the root folder/director
 ...
 ```
 
-Now, you can use `file-path-resolver` througout the project anywhere as shown in `What is the use ??` section.
+Now, you can use `file-path-resolver` throughout the project anywhere as shown in `What is the use ??` section.
 
 ### Use cases handling
 
-    # You have multiple file with same in different folders.
+    # You have multiple file with same name in different folders.
     
-Suppose you have `abc.js` file in `aaa` , `bbbb` and `ccc` folder/directory. Now, you can require `abc.js` file  from `bbb` as,
+Suppose you have `abc.js` file in `aaa` , `bbb` and `ccc` folder/directory. Now, you can require `abc.js` file  from `bbb` as,
 ```js
  /**
   * Pass the name of file as the first argument and folder/directory name as the second argument
@@ -84,9 +84,9 @@ filePathResolver('root-folder-name', ['.idea', 'yarn.lock', '.gitignore']);// No
 ```
 Here, You have passed an array of files and folders to be ignored.
 
-## Congrates
+## Congrats
 
-This is all abou this module.
+This is all about this module.
 
 Report issues [Here](https://github.com/sauravgaursmith/file-path-resolver/issues).
 
