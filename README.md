@@ -34,7 +34,7 @@ var dbConfig = require(userFilePath('config'));
     * keep the folder names unique, if you have multiple files with same name.
 
 `file-path-resolver` can be used in Node Js project. if you are using `express` then,
-Add the following files to your `app.js` file as
+Add the following lines to your `app.js` file as
 ```js
 
 // app.js 
@@ -89,7 +89,8 @@ Here, You have passed an array of files and folders to be ignored.
 
 This is all abou this module.
 
-Report issues [Here]
+Report issues [Here](https://github.com/sauravgaursmith/file-path-resolver/issues).
+
 Feel free to give your valuable comments, issues and suggestions at `js.tech.feedback@gmail.com`
 
 ###LICENSE
