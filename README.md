@@ -1,6 +1,5 @@
 # file-path-resolver
-Resolves path to a file in a Node Js when we require a file. 
-Documentation is in process. Please wait ... Thanks.
+Resolves path to a file in a Node Js when we require a file.
 
 ### Prerequisite
     * NPM : 4.0.2 or higher version
