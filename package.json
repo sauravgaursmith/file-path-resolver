@@ -1,0 +1,28 @@
+{
+  "name": "file-path-resolver",
+  "version": "1.0.0",
+  "description": "Resolves path to a file in a Node Js when we require a file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sauravgaursmith/file-path-resolver.git"
+  },
+  "keywords": [
+    "require",
+    "rekuire",
+    "file-path",
+    "path-resolver"
+  ],
+  "author": {
+    "name": "Saurav Singh",
+    "email": "js.tech.feedback@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sauravgaursmith/file-path-resolver/issues"
+  },
+  "homepage": "https://github.com/sauravgaursmith/file-path-resolver#readme"
+}
